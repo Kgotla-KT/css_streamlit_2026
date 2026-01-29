@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan 29 16:25:42 2026
+
+@author: kkmasibi
+"""
+
+streamlit
+pandas
+numpy
+matplotlib
+Pillow
+fpdf2
