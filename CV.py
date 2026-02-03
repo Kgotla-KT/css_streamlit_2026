@@ -87,10 +87,10 @@ if page == "Researcher Profile":
     col1, col2 = st.columns([1, 2])
     with col1:
         try:
-            img_path = r"C:\Users\kkmasibi\Downloads\Day_4\Image.JPEG" 
+            img_path = "Image.jpeg" 
             st.image(img_path, caption="Dr. Kgotla Katlego Masibi", width=300)
         except:
-            st.image("https://via.placeholder.com/200", caption="Image Path Not Found")
+            st.image("Image.JPEG", caption="Image Path Not Found")
         st.markdown("**Core Expertise:**")
         st.markdown("- :blue[Material Science]\n- :green[Nanotechnology]\n- :orange[Electrochemical Sensors]\n- :violet[Green Synthesis]")
     with col2:
